@@ -1,0 +1,31 @@
+{
+  "version": "https://schema.openattestation.com/2.0/schema.json",
+  "data": {
+    "name": "3c25ed31-99a6-47b3-8e95-561e5e02ef48:string:Eason Chen",
+    "institute": "9dd063ae-ff18-4ac0-af8c-c5c697c25c0a:string:FiO.one",
+    "issuers": [
+      {
+        "name": "45400dd3-386d-4f14-8671-bfb0fae9d76d:string:FiO.one",
+        "documentStore": "2082c7f4-719f-4f56-8a69-b751debb0279:string:0xac23027c47feAd2a2AC80ed7733Ee698C6c83e60",
+        "identityProof": {
+          "location": "15c5b53d-143d-42fa-933f-af9afcca5fe8:string:dev.cert.fio.one",
+          "type": "7177c9a5-1391-47c5-a9b6-d42cb5e56c51:string:DNS-TXT"
+        }
+      }
+    ],
+    "$template": {
+      "name": "f46c1612-98af-4037-94e3-5b3ca62e60fc:string:custom",
+      "type": "89afaa72-30fb-4354-ae55-f497217bfcab:string:EMBEDDED_RENDERER",
+      "url": "7869c1fd-4dad-4d7c-b025-e495bddb6475:string:https://elated-shannon-191059.netlify.app/"
+    }
+  },
+  "signature": {
+    "type": "SHA3MerkleProof",
+    "targetHash": "7f63f7c5da7be3bf350e27d173eb11b5e6ce2274af79d78ef73c5eac144697ba",
+    "proof": [
+      "2f844561948215886a884ce880dfff6896c8e8c4b82bb9179a66d1bedb186d9f",
+      "64cb295727d470c2bde18ec750322c40e45b816db2b9f0fe81c8bc880ab12b0b"
+    ],
+    "merkleRoot": "7e2f34268c7bdfe22aa13aa90a9bb000ed547abe47b448596c483a95102c4f5f"
+  }
+}
